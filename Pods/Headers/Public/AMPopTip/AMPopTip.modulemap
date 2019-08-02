@@ -1,0 +1,6 @@
+module AMPopTip [system] {
+  umbrella header "AMPopTip-umbrella.h"
+
+  export *
+  module * { export * }
+}

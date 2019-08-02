@@ -1,0 +1,6 @@
+module SwiftSoup [system] {
+  umbrella header "SwiftSoup-umbrella.h"
+
+  export *
+  module * { export * }
+}

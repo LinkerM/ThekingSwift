@@ -1,0 +1,46 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AMPopTip (3.6.0)
+  - Kingfisher (5.1.1)
+  - SnapKit (4.2.0)
+  - SQLite.swift (0.11.5):
+    - SQLite.swift/standard (= 0.11.5)
+  - SQLite.swift/standard (0.11.5)
+  - SVProgressHUD (2.2.5)
+  - SwiftSoup (1.7.4)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AMPopTip
+  - Kingfisher
+  - SnapKit
+  - SQLite.swift (~> 0.11.0)
+  - SVProgressHUD
+  - SwiftSoup
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - AMPopTip
+    - Kingfisher
+    - SnapKit
+    - SQLite.swift
+    - SVProgressHUD
+    - SwiftSoup
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AMPopTip: ebfa860ade372f383e8b3500d3101e8c4a4f73ce
+  Kingfisher: 2558186963e5be42d98c5b110ccb3130148b77e4
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SQLite.swift: 6e5356850bb1791459f8c16d6ee9195b28714a2e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftSoup: 92f5b348c131aed8af04f4326db1579ab19fa08c
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: e78ea2ca2966529106768fb96abefd88de07ff8d
+
+COCOAPODS: 1.5.0

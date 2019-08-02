@@ -7,14 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BB1706441F99043FEC868E0 /* libPods-wangzhe-swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BAD85270B81039A5A3AF7A7 /* libPods-wangzhe-swift.a */; };
 		842F5A1B22E5489E001684CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A1A22E5489E001684CB /* AppDelegate.swift */; };
 		842F5A1D22E5489E001684CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A1C22E5489E001684CB /* ViewController.swift */; };
 		842F5A2022E5489E001684CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F5A1E22E5489E001684CB /* Main.storyboard */; };
 		842F5A2222E5489F001684CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842F5A2122E5489F001684CB /* Assets.xcassets */; };
 		842F5A2522E5489F001684CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842F5A2322E5489F001684CB /* LaunchScreen.storyboard */; };
+		842F5A3022E55D65001684CB /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A2D22E55D65001684CB /* CustomColor.swift */; };
+		842F5A3122E55D65001684CB /* HeroCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A2E22E55D65001684CB /* HeroCellCollectionViewCell.swift */; };
+		842F5A3222E55D65001684CB /* BWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A2F22E55D65001684CB /* BWHUD.swift */; };
+		842F5A3822E55DAC001684CB /* HeroModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A3422E55DAC001684CB /* HeroModel.swift */; };
+		842F5A3922E55DAC001684CB /* CommonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A3622E55DAC001684CB /* CommonData.swift */; };
+		842F5A3A22E55DAC001684CB /* Net.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A3722E55DAC001684CB /* Net.swift */; };
+		842F5A3E22E58EDF001684CB /* EquipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A3D22E58EDF001684CB /* EquipModel.swift */; };
+		842F5A4022E58EEB001684CB /* MingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A3F22E58EEB001684CB /* MingModel.swift */; };
+		842F5A4222E58EF7001684CB /* SummonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A4122E58EF7001684CB /* SummonModel.swift */; };
+		842F5A4422E5B2E6001684CB /* CustomCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842F5A4322E5B2E6001684CB /* CustomCreate.swift */; };
+		8469EA9F22F186C400C363FB /* MingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469EA9E22F186C400C363FB /* MingViewController.swift */; };
+		84910B3822EAA5B200E922F3 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84910B3722EAA5B200E922F3 /* Common.swift */; };
+		84910B3A22EAF34600E922F3 /* VideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84910B3922EAF34600E922F3 /* VideoListViewController.swift */; };
+		8492EBE522F2C1F600F9A8A0 /* SummonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492EBE422F2C1F600F9A8A0 /* SummonViewController.swift */; };
+		84AF218722EEC6D8009E369D /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF218622EEC6D8009E369D /* Video.swift */; };
+		84AF218922EED2D1009E369D /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF218822EED2D1009E369D /* VideoTableViewCell.swift */; };
+		84AF218B22EEF69A009E369D /* EquiqViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AF218A22EEF69A009E369D /* EquiqViewController.swift */; };
+		84DB24C022E6B2CE003A65E2 /* HeroInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB24BF22E6B2CE003A65E2 /* HeroInfoVC.swift */; };
+		84DB24C222E6B7E9003A65E2 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB24C122E6B7E9003A65E2 /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0597A042B25E5AD5585B301B /* Pods-wangzhe-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangzhe-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-wangzhe-swift/Pods-wangzhe-swift.release.xcconfig"; sourceTree = "<group>"; };
+		1BAD85270B81039A5A3AF7A7 /* libPods-wangzhe-swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-wangzhe-swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5A1722E5489E001684CB /* wangzhe-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wangzhe-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		842F5A1A22E5489E001684CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		842F5A1C22E5489E001684CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +44,27 @@
 		842F5A2122E5489F001684CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842F5A2422E5489F001684CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842F5A2622E5489F001684CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842F5A2D22E55D65001684CB /* CustomColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColor.swift; sourceTree = "<group>"; };
+		842F5A2E22E55D65001684CB /* HeroCellCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		842F5A2F22E55D65001684CB /* BWHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BWHUD.swift; sourceTree = "<group>"; };
+		842F5A3422E55DAC001684CB /* HeroModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroModel.swift; sourceTree = "<group>"; };
+		842F5A3622E55DAC001684CB /* CommonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonData.swift; sourceTree = "<group>"; };
+		842F5A3722E55DAC001684CB /* Net.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Net.swift; sourceTree = "<group>"; };
+		842F5A3B22E55F6A001684CB /* bridge_bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge_bridge.h; sourceTree = "<group>"; };
+		842F5A3D22E58EDF001684CB /* EquipModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipModel.swift; sourceTree = "<group>"; };
+		842F5A3F22E58EEB001684CB /* MingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MingModel.swift; sourceTree = "<group>"; };
+		842F5A4122E58EF7001684CB /* SummonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonModel.swift; sourceTree = "<group>"; };
+		842F5A4322E5B2E6001684CB /* CustomCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCreate.swift; sourceTree = "<group>"; };
+		8469EA9E22F186C400C363FB /* MingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MingViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		84910B3722EAA5B200E922F3 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		84910B3922EAF34600E922F3 /* VideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListViewController.swift; sourceTree = "<group>"; };
+		8492EBE422F2C1F600F9A8A0 /* SummonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummonViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		84AF218622EEC6D8009E369D /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		84AF218822EED2D1009E369D /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		84AF218A22EEF69A009E369D /* EquiqViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiqViewController.swift; sourceTree = "<group>"; };
+		84DB24BF22E6B2CE003A65E2 /* HeroInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroInfoVC.swift; sourceTree = "<group>"; };
+		84DB24C122E6B7E9003A65E2 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		A4BC57F726D98BE4D1EF13D1 /* Pods-wangzhe-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wangzhe-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wangzhe-swift/Pods-wangzhe-swift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +72,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB1706441F99043FEC868E0 /* libPods-wangzhe-swift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CB9D9C483CC39E263A7B442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4BC57F726D98BE4D1EF13D1 /* Pods-wangzhe-swift.debug.xcconfig */,
+				0597A042B25E5AD5585B301B /* Pods-wangzhe-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		842F5A0E22E5489E001684CB = {
 			isa = PBXGroup;
 			children = (
 				842F5A1922E5489E001684CB /* wangzhe-swift */,
 				842F5A1822E5489E001684CB /* Products */,
+				5CB9D9C483CC39E263A7B442 /* Pods */,
+				AE3B6F26AB66169504F0242C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +109,66 @@
 		842F5A1922E5489E001684CB /* wangzhe-swift */ = {
 			isa = PBXGroup;
 			children = (
+				842F5A3322E55DAC001684CB /* Model */,
+				842F5A3522E55DAC001684CB /* Net */,
+				842F5A2C22E55D65001684CB /* Custom */,
 				842F5A1A22E5489E001684CB /* AppDelegate.swift */,
 				842F5A1C22E5489E001684CB /* ViewController.swift */,
+				84DB24BF22E6B2CE003A65E2 /* HeroInfoVC.swift */,
+				84910B3922EAF34600E922F3 /* VideoListViewController.swift */,
+				84AF218A22EEF69A009E369D /* EquiqViewController.swift */,
+				8469EA9E22F186C400C363FB /* MingViewController.swift */,
+				8492EBE422F2C1F600F9A8A0 /* SummonViewController.swift */,
 				842F5A1E22E5489E001684CB /* Main.storyboard */,
+				842F5A3B22E55F6A001684CB /* bridge_bridge.h */,
 				842F5A2122E5489F001684CB /* Assets.xcassets */,
 				842F5A2322E5489F001684CB /* LaunchScreen.storyboard */,
 				842F5A2622E5489F001684CB /* Info.plist */,
 			);
 			path = "wangzhe-swift";
+			sourceTree = "<group>";
+		};
+		842F5A2C22E55D65001684CB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				842F5A2D22E55D65001684CB /* CustomColor.swift */,
+				842F5A2E22E55D65001684CB /* HeroCellCollectionViewCell.swift */,
+				84AF218822EED2D1009E369D /* VideoTableViewCell.swift */,
+				842F5A2F22E55D65001684CB /* BWHUD.swift */,
+				842F5A4322E5B2E6001684CB /* CustomCreate.swift */,
+				84910B3722EAA5B200E922F3 /* Common.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		842F5A3322E55DAC001684CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842F5A3422E55DAC001684CB /* HeroModel.swift */,
+				842F5A3D22E58EDF001684CB /* EquipModel.swift */,
+				842F5A3F22E58EEB001684CB /* MingModel.swift */,
+				842F5A4122E58EF7001684CB /* SummonModel.swift */,
+				84AF218622EEC6D8009E369D /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		842F5A3522E55DAC001684CB /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				842F5A3622E55DAC001684CB /* CommonData.swift */,
+				842F5A3722E55DAC001684CB /* Net.swift */,
+				84DB24C122E6B7E9003A65E2 /* Parser.swift */,
+			);
+			path = Net;
+			sourceTree = "<group>";
+		};
+		AE3B6F26AB66169504F0242C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BAD85270B81039A5A3AF7A7 /* libPods-wangzhe-swift.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842F5A2922E5489F001684CB /* Build configuration list for PBXNativeTarget "wangzhe-swift" */;
 			buildPhases = (
+				F04AF81A5FF3A4A2CA6CC85F /* [CP] Check Pods Manifest.lock */,
 				842F5A1322E5489E001684CB /* Sources */,
 				842F5A1422E5489E001684CB /* Frameworks */,
 				842F5A1522E5489E001684CB /* Resources */,
+				2B8EFE1C0A080E299E564376 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +239,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B8EFE1C0A080E299E564376 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wangzhe-swift/Pods-wangzhe-swift-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wangzhe-swift/Pods-wangzhe-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04AF81A5FF3A4A2CA6CC85F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wangzhe-swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842F5A1322E5489E001684CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842F5A3E22E58EDF001684CB /* EquipModel.swift in Sources */,
+				842F5A3122E55D65001684CB /* HeroCellCollectionViewCell.swift in Sources */,
+				842F5A3922E55DAC001684CB /* CommonData.swift in Sources */,
 				842F5A1D22E5489E001684CB /* ViewController.swift in Sources */,
+				842F5A4022E58EEB001684CB /* MingModel.swift in Sources */,
+				842F5A3A22E55DAC001684CB /* Net.swift in Sources */,
+				8492EBE522F2C1F600F9A8A0 /* SummonViewController.swift in Sources */,
+				84DB24C222E6B7E9003A65E2 /* Parser.swift in Sources */,
+				84DB24C022E6B2CE003A65E2 /* HeroInfoVC.swift in Sources */,
+				842F5A3222E55D65001684CB /* BWHUD.swift in Sources */,
+				842F5A4222E58EF7001684CB /* SummonModel.swift in Sources */,
+				84910B3A22EAF34600E922F3 /* VideoListViewController.swift in Sources */,
+				84AF218722EEC6D8009E369D /* Video.swift in Sources */,
+				84AF218B22EEF69A009E369D /* EquiqViewController.swift in Sources */,
+				8469EA9F22F186C400C363FB /* MingViewController.swift in Sources */,
+				842F5A4422E5B2E6001684CB /* CustomCreate.swift in Sources */,
 				842F5A1B22E5489E001684CB /* AppDelegate.swift in Sources */,
+				842F5A3022E55D65001684CB /* CustomColor.swift in Sources */,
+				84910B3822EAA5B200E922F3 /* Common.swift in Sources */,
+				842F5A3822E55DAC001684CB /* HeroModel.swift in Sources */,
+				84AF218922EED2D1009E369D /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +447,7 @@
 		};
 		842F5A2A22E5489F001684CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4BC57F726D98BE4D1EF13D1 /* Pods-wangzhe-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "celian.wangzhe-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Media/Desktop/wangzhe-swift/wangzhe-swift/bridge_bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +466,7 @@
 		};
 		842F5A2B22E5489F001684CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0597A042B25E5AD5585B301B /* Pods-wangzhe-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +477,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "celian.wangzhe-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/Media/Desktop/wangzhe-swift/wangzhe-swift/bridge_bridge.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

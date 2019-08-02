@@ -1,0 +1,6 @@
+module Pods_wangzhe_swift [system] {
+  umbrella header "Pods-wangzhe-swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

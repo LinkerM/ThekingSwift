@@ -15,7 +15,60 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let mainWindows = UIWindow(frame: UIScreen.main.bounds)
+        
+        let hero = ViewController()
+        hero.title = "英雄"
+        hero.tabBarItem.title = "英雄"
+        hero.tabBarItem.image = UIImage.init(named: "hero")
+        let n1 = UINavigationController(rootViewController: hero)
+        n1.navigationBar.tintColor = CustomColor.textColorWhite
+        n1.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: CustomColor.textColorWhite]
+        n1.navigationBar.barTintColor = CustomColor.mainColor
+        n1.navigationBar.isTranslucent = false //关闭导航栏半透明效果
+        
+        let equip = EquiqViewController()
+        equip.title = "装备"
+        equip.tabBarItem.title = "英雄"
+        equip.tabBarItem.image = UIImage.init(named: "hero")
+        let n2 = UINavigationController(rootViewController: equip)
+        n2.navigationBar.tintColor = CustomColor.textColorWhite
+        n2.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: CustomColor.textColorWhite]
+        n2.navigationBar.barTintColor = CustomColor.mainColor
+        n2.navigationBar.isTranslucent = false //关闭导航栏半透明效果
+        
+        let ming = MingViewController()
+        ming.title = "铭文"
+        ming.tabBarItem.title = "英雄"
+        ming.tabBarItem.image = UIImage.init(named: "hero")
+        let n3 = UINavigationController(rootViewController: ming)
+        n3.navigationBar.tintColor = CustomColor.textColorWhite
+        n3.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: CustomColor.textColorWhite]
+        n3.navigationBar.barTintColor = CustomColor.mainColor
+        n3.navigationBar.isTranslucent = false //关闭导航栏半透明效果
+        
+        let sum = SummonViewController()
+        sum.title = "技能"
+        sum.tabBarItem.title = "英雄"
+        sum.tabBarItem.image = UIImage.init(named: "hero")
+        let n4 = UINavigationController(rootViewController: sum)
+        n4.navigationBar.tintColor = CustomColor.textColorWhite
+        n4.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: CustomColor.textColorWhite]
+        n4.navigationBar.barTintColor = CustomColor.mainColor
+        n4.navigationBar.isTranslucent = false //关闭导航栏半透明效果
+        
+        let tabbar = UITabBarController()
+        tabbar.tabBar.tintColor = CustomColor.textColorWhite
+        tabbar.tabBar.barTintColor = CustomColor.mainColor
+        tabbar.tabBar.unselectedItemTintColor = UIColor.gray
+        tabbar.viewControllers = [n1, n2, n3, n4]
+        
+        mainWindows.rootViewController = tabbar
+        window = mainWindows
+        window?.makeKeyAndVisible()
+        
+        Video.creatTable()
         return true
     }
 
